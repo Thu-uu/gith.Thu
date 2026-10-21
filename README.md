@@ -1,3 +1,3 @@
 # gith.Thu
-tạo cv của Thu
-đã tạo xong
+Tạo cv của Thu bằng html và css
+Qua github up lên cloudflare
