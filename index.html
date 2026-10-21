@@ -1,63 +1,208 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Sinh Viên</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <title>CV Sinh Viên</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="cv-page">
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">TV</div>
+        <h1 class="name">Trần Văn An</h1>
+        <p class="title">Sinh viên CNTT - K67</p>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:tranvanan@student.university.edu.vn">tranvanan@student.university.edu.vn</a>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="tel:+84901234567">+84 90 123 4567</a>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v8"/><path d="M15 3v18"/><path d="M9 3v18"/></svg>
+            <span>Hà Nội, Việt Nam</span>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M17 11h4a2 2 0 0 1 0 4h-1"/><path d="M17 11v-1a2 2 0 0 1 2-2h1"/></svg>
+            <a href="https://linkedin.com/in/tranvanan" target="_blank" rel="noopener">linkedin.com/in/tranvanan</a>
+          </li>
+          <li class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            <a href="https://github.com/tranvanan" target="_blank" rel="noopener">github.com/tranvanan</a>
+          </li>
+        </ul>
+      </div>
 
-    <div class="cv">
-        <header>
-            <h1>NGUYỄN VĂN A</h1>
-            <p>Sinh viên Công nghệ thông tin</p>
-        </header>
+      <section class="sidebar-section">
+        <h2 class="section-title">Kỹ năng</h2>
+        <div class="skills-grid">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">HTML/CSS</span>
+          <span class="skill-tag">Linux</span>
+        </div>
+      </section>
 
-        <section>
-            <h2>Thông tin cá nhân</h2>
-            <p>Ngày sinh: 01/01/2005</p>
-            <p>Email: nguyenvana@gmail.com</p>
-            <p>Số điện thoại: 0123456789</p>
-            <p>Địa chỉ: Thái Nguyên, Việt Nam</p>
-        </section>
+      <section class="sidebar-section">
+        <h2 class="section-title">Ngôn ngữ</h2>
+        <div class="lang-item">
+          <span class="lang-name">Tiếng Việt</span>
+          <span class="lang-level">Native</span>
+        </div>
+        <div class="lang-item">
+          <span class="lang-name">English</span>
+          <span class="lang-level">IELTS 6.5</span>
+        </div>
+      </section>
+    </aside>
 
-        <section>
-            <h2>Mục tiêu nghề nghiệp</h2>
-            <p>
-                Mong muốn học hỏi thêm kiến thức chuyên ngành,
-                nâng cao kỹ năng lập trình và tìm kiếm cơ hội
-                thực tập để tích lũy kinh nghiệm.
-            </p>
-        </section>
+    <main class="main">
+      <section class="section">
+        <div class="section-header">
+          <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <h2 class="section-title-main">Mục tiêu</h2>
+        </div>
+        <p class="description">
+          Sinh viên năm 3 ngành Khoa học Máy tính, đam mê phát triển web full-stack.
+          Tìm kiếm vị trí thực tập/tập sự để áp dụng kiến thức, học hỏi từ team senior
+          và đóng góp vào sản phẩm thực tế.
+        </p>
+      </section>
 
-        <section>
-            <h2>Học vấn</h2>
-            <p><strong>Trường:</strong> Đại học ABC</p>
-            <p><strong>Chuyên ngành:</strong> Công nghệ thông tin</p>
-            <p><strong>Thời gian:</strong> 2023 - 2027</p>
-        </section>
+      <section class="section">
+        <div class="section-header">
+          <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <h2 class="section-title-main">Giáo dục</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-header">
+              <span class="role">Cử nhân Khoa học Máy tính</span>
+              <span class="company">Đại học Công nghệ (UET/VNU)</span>
+              <span class="period">2022 – 2026</span>
+            </div>
+            <p class="description">GPA: 3.4/4.0. Chuyên ngành: Phát triển phần mềm. Các môn liên quan: Cấu trúc dữ liệu & Giải thuật, Cơ sở dữ liệu, Mạng máy tính, Phân tích thiết kế hệ thống.</p>
+          </article>
+        </div>
+      </section>
 
-        <section>
-            <h2>Kỹ năng</h2>
-            <ul>
-                <li>HTML, CSS cơ bản</li>
-                <li>Sử dụng Word, PowerPoint</li>
-                <li>Làm việc nhóm</li>
-                <li>Có tinh thần học hỏi</li>
+      <section class="section">
+        <div class="section-header">
+          <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+          <h2 class="section-title-main">Kinh nghiệm & Hoạt động</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-header">
+              <span class="role">Thực tập sinh Frontend</span>
+              <span class="company">Công ty ABC Technology</span>
+              <span class="period">06/2024 – 08/2024</span>
+            </div>
+            <ul class="achievements">
+              <li>Phát triển, bảo trì giao diện admin dashboard với React + TypeScript</li>
+              <li>Viết unit test với Jest/React Testing Library, tăng coverage từ 60% lên 80%</li>
+              <li>Tối ưu bundle size giảm 25% qua code splitting và lazy loading</li>
+              <li>Tham gia daily standup, code review, sprint planning theo Scrum</li>
             </ul>
-        </section>
+          </article>
 
-        <section>
-            <h2>Sở thích</h2>
-            <p>Nghe nhạc, đọc sách, học lập trình và du lịch.</p>
-        </section>
+          <article class="timeline-item">
+            <div class="timeline-header">
+              <span class="role">Trưởng nhóm CLB Lập trình</span>
+              <span class="company">CLB SINH VIÊN ĐH CÔNG NGHỆ</span>
+              <span class="period">2023 – 2024</span>
+            </div>
+            <ul class="achievements">
+              <li>Tổ chức 3 workshop chia sẻ kiến thức (React, Git, Algorithm) cho 50+ thành viên</li>
+              <li>Điều phối team 5 người tham gia Hackathon sinh viên, đạt giải Khuyến khích</li>
+              <li>Xây dựng website quản lý thành viên cho CLB (MERN stack)</li>
+            </ul>
+          </article>
+        </div>
+      </section>
 
-        <footer>
-            <p>© 2026 - CV cá nhân</p>
-        </footer>
-    </div>
+      <section class="section">
+        <div class="section-header">
+          <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          <h2 class="section-title-main">Dự án tiêu biểu</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-name">E-Shop — Web thương mại điện tử</h3>
+              <div class="project-links">
+                <a class="project-link" href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+              </div>
+            </div>
+            <p class="project-desc">Full-stack: React + Node.js/Express + MongoDB. Auth JWT, giỏ hàng, thanh toán VNPAY sandbox, admin quản lý đơn hàng.</p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">JWT</span>
+            </div>
+          </article>
 
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-name">TaskManager — Quản lý công việc</h3>
+              <div class="project-links">
+                <a class="project-link" href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+              </div>
+            </div>
+            <p class="project-desc">SPA quản lý task cá nhân/nhóm: Kanban board, deadline, reminder, real-time sync qua WebSocket. Deploy Vercel + Railway.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">Socket.io</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Prisma</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <h3 class="project-name">Algorithm Visualizer</h3>
+              <div class="project-links">
+                <a class="project-link" href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+              </div>
+            </div>
+            <p class="project-desc">Mô phỏng trực quan thuật toán sắp xếp & tìm kiếm (bubble, quick, merge, binary search) bằng Canvas. Dùng cho môn Cấu trúc dữ liệu.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Vanilla JS</span>
+              <span class="tech-tag">Canvas API</span>
+              <span class="tech-tag">CSS Animations</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-header">
+          <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <h2 class="section-title-main">Giải thưởng & Chứng chỉ</h2>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: var(--space-3);">
+          <span class="skill-tag" style="background: var(--accent-light); color: var(--accent); border-color: var(--accent);">Giải 3 Hackathon sinh viên 2024</span>
+          <span class="skill-tag" style="background: var(--accent-light); color: var(--accent); border-color: var(--accent);">AWS Cloud Practitioner</span>
+          <span class="skill-tag" style="background: #fef3c7; color: #b45309; border-color: #f59e0b;">Học bổng khuyến khích 2023</span>
+          <span class="skill-tag" style="background: #fef3c7; color: #b45309; border-color: #f59e0b;">IELTS 6.5</span>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
